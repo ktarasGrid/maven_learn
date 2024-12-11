@@ -40,6 +40,12 @@
 
   </properties>
 
+  <scm>
+    <connection>scm:git:https://github.com/ktarasGrid/maven_learn.git</connection>
+    <developerConnection>scm:git:https://github.com/ktarasGrid/maven_learn.git</developerConnection>
+    <url>https://github.com/ktarasGrid/maven_learn</url>
+  </scm>
+
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
@@ -156,6 +162,11 @@
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>3.0.0</version>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
