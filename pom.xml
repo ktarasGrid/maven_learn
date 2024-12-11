@@ -23,7 +23,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set
         -DnewVersion=... -->
-    <project.build.outputTimestamp>2024-12-11T16:13:03Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-12-11T16:15:45Z</project.build.outputTimestamp>
 
     <!-- Web dependencies -->
     <webjars-locator.version>1.0.1</webjars-locator.version>
@@ -44,7 +44,7 @@
     <connection>scm:git:https://github.com/ktarasGrid/maven_learn.git</connection>
     <developerConnection>scm:git:https://github.com/ktarasGrid/maven_learn.git</developerConnection>
     <url>https://github.com/ktarasGrid/maven_learn</url>
-    <tag>taggy_update</tag>
+    <tag>spring-petclinic-6.9.1</tag>
   </scm>
 
   <dependencies>
